@@ -15,7 +15,7 @@
 	print "Key Length: ".strlen($key)."\n";
 	print "Key. ".$key."\n\n";
 	
-	/*###########  LOCAK  ##############*/
+	/*###########  LOCK  ##############*/
 	$cipherText=lock($text,$key);
 	//print $cipherText."\n\n";
 	print "Cipher Text legth: ".strlen($cipherText)."\n";
